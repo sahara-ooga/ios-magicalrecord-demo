@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A8610F62E40C05E3FAC158 /* Pods_ios_magicalrecord_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E1242CED147304AA8E4558 /* Pods_ios_magicalrecord_demoUITests.framework */; };
+		9F5F17931E770C8000D8C3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17921E770C8000D8C3A7 /* AppDelegate.swift */; };
+		9F5F17951E770C8000D8C3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17941E770C8000D8C3A7 /* ViewController.swift */; };
+		9F5F17981E770C8000D8C3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F17961E770C8000D8C3A7 /* Main.storyboard */; };
+		9F5F179B1E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17991E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodeld */; };
+		9F5F179D1E770C8000D8C3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F179C1E770C8000D8C3A7 /* Assets.xcassets */; };
+		9F5F17A01E770C8000D8C3A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F179E1E770C8000D8C3A7 /* LaunchScreen.storyboard */; };
+		9F5F17AB1E770C8000D8C3A7 /* ios_magicalrecord_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17AA1E770C8000D8C3A7 /* ios_magicalrecord_demoTests.swift */; };
+		9F5F17B61E770C8000D8C3A7 /* ios_magicalrecord_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17B51E770C8000D8C3A7 /* ios_magicalrecord_demoUITests.swift */; };
+		9F5F17C51E77133E00D8C3A7 /* DemoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17C31E77133E00D8C3A7 /* DemoEntity+CoreDataClass.swift */; };
+		9F5F17C61E77133E00D8C3A7 /* DemoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F17C41E77133E00D8C3A7 /* DemoEntity+CoreDataProperties.swift */; };
+		A775535033967DE25CC1D3BB /* Pods_ios_magicalrecord_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9D3B1A6A5331DF4132DFC4 /* Pods_ios_magicalrecord_demo.framework */; };
+		DE5409DCFE1B7D40E662B970 /* Pods_ios_magicalrecord_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECF6F13C24F7FE21EE775 /* Pods_ios_magicalrecord_demoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F5F17A71E770C8000D8C3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5F17871E770C7F00D8C3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5F178E1E770C7F00D8C3A7;
+			remoteInfo = "ios-magicalrecord-demo";
+		};
+		9F5F17B21E770C8000D8C3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5F17871E770C7F00D8C3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5F178E1E770C7F00D8C3A7;
+			remoteInfo = "ios-magicalrecord-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064939C1E005CF1909A10FBC /* Pods-ios-magicalrecord-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demoUITests/Pods-ios-magicalrecord-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		528632B30F9B1780FD3FFBC8 /* Pods-ios-magicalrecord-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demoUITests/Pods-ios-magicalrecord-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C569E04C47EF2B32B1EC2FA /* Pods-ios-magicalrecord-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demo/Pods-ios-magicalrecord-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		667ECF6F13C24F7FE21EE775 /* Pods_ios_magicalrecord_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_magicalrecord_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5F178F1E770C7F00D8C3A7 /* ios-magicalrecord-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-magicalrecord-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5F17921E770C8000D8C3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F5F17941E770C8000D8C3A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F5F17971E770C8000D8C3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F5F179A1E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_magicalrecord_demo.xcdatamodel; sourceTree = "<group>"; };
+		9F5F179C1E770C8000D8C3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F5F179F1E770C8000D8C3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F5F17A11E770C8000D8C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5F17A61E770C8000D8C3A7 /* ios-magicalrecord-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-magicalrecord-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5F17AA1E770C8000D8C3A7 /* ios_magicalrecord_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_magicalrecord_demoTests.swift; sourceTree = "<group>"; };
+		9F5F17AC1E770C8000D8C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5F17B11E770C8000D8C3A7 /* ios-magicalrecord-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-magicalrecord-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5F17B51E770C8000D8C3A7 /* ios_magicalrecord_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_magicalrecord_demoUITests.swift; sourceTree = "<group>"; };
+		9F5F17B71E770C8000D8C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5F17C31E77133E00D8C3A7 /* DemoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F5F17C41E77133E00D8C3A7 /* DemoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F5F17C71E77150700D8C3A7 /* ios-magicalrecord-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-magicalrecord-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0E1242CED147304AA8E4558 /* Pods_ios_magicalrecord_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_magicalrecord_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE39EB730D7B9D6013C33FBB /* Pods-ios-magicalrecord-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demoTests/Pods-ios-magicalrecord-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9D3B1A6A5331DF4132DFC4 /* Pods_ios_magicalrecord_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_magicalrecord_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9D9A321E3D5341494A170D /* Pods-ios-magicalrecord-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demo/Pods-ios-magicalrecord-demo.release.xcconfig"; sourceTree = "<group>"; };
+		F1CD41C982DCAD59C36AA668 /* Pods-ios-magicalrecord-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-magicalrecord-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-magicalrecord-demoTests/Pods-ios-magicalrecord-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5F178C1E770C7F00D8C3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A775535033967DE25CC1D3BB /* Pods_ios_magicalrecord_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17A31E770C8000D8C3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5409DCFE1B7D40E662B970 /* Pods_ios_magicalrecord_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17AE1E770C8000D8C3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A8610F62E40C05E3FAC158 /* Pods_ios_magicalrecord_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783CCFBF7832999C39CF6061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D3B1A6A5331DF4132DFC4 /* Pods_ios_magicalrecord_demo.framework */,
+				667ECF6F13C24F7FE21EE775 /* Pods_ios_magicalrecord_demoTests.framework */,
+				A0E1242CED147304AA8E4558 /* Pods_ios_magicalrecord_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F5F17861E770C7F00D8C3A7 = {
+			isa = PBXGroup;
+			children = (
+				9F5F17911E770C7F00D8C3A7 /* ios-magicalrecord-demo */,
+				9F5F17A91E770C8000D8C3A7 /* ios-magicalrecord-demoTests */,
+				9F5F17B41E770C8000D8C3A7 /* ios-magicalrecord-demoUITests */,
+				9F5F17901E770C7F00D8C3A7 /* Products */,
+				F674E179E20BD51D5B3B116A /* Pods */,
+				783CCFBF7832999C39CF6061 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5F17901E770C7F00D8C3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F178F1E770C7F00D8C3A7 /* ios-magicalrecord-demo.app */,
+				9F5F17A61E770C8000D8C3A7 /* ios-magicalrecord-demoTests.xctest */,
+				9F5F17B11E770C8000D8C3A7 /* ios-magicalrecord-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5F17911E770C7F00D8C3A7 /* ios-magicalrecord-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F17C31E77133E00D8C3A7 /* DemoEntity+CoreDataClass.swift */,
+				9F5F17C41E77133E00D8C3A7 /* DemoEntity+CoreDataProperties.swift */,
+				9F5F17921E770C8000D8C3A7 /* AppDelegate.swift */,
+				9F5F17941E770C8000D8C3A7 /* ViewController.swift */,
+				9F5F17961E770C8000D8C3A7 /* Main.storyboard */,
+				9F5F179C1E770C8000D8C3A7 /* Assets.xcassets */,
+				9F5F179E1E770C8000D8C3A7 /* LaunchScreen.storyboard */,
+				9F5F17A11E770C8000D8C3A7 /* Info.plist */,
+				9F5F17991E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodeld */,
+				9F5F17C71E77150700D8C3A7 /* ios-magicalrecord-demo-Bridging-Header.h */,
+			);
+			path = "ios-magicalrecord-demo";
+			sourceTree = "<group>";
+		};
+		9F5F17A91E770C8000D8C3A7 /* ios-magicalrecord-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F17AA1E770C8000D8C3A7 /* ios_magicalrecord_demoTests.swift */,
+				9F5F17AC1E770C8000D8C3A7 /* Info.plist */,
+			);
+			path = "ios-magicalrecord-demoTests";
+			sourceTree = "<group>";
+		};
+		9F5F17B41E770C8000D8C3A7 /* ios-magicalrecord-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F17B51E770C8000D8C3A7 /* ios_magicalrecord_demoUITests.swift */,
+				9F5F17B71E770C8000D8C3A7 /* Info.plist */,
+			);
+			path = "ios-magicalrecord-demoUITests";
+			sourceTree = "<group>";
+		};
+		F674E179E20BD51D5B3B116A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C569E04C47EF2B32B1EC2FA /* Pods-ios-magicalrecord-demo.debug.xcconfig */,
+				DB9D9A321E3D5341494A170D /* Pods-ios-magicalrecord-demo.release.xcconfig */,
+				AE39EB730D7B9D6013C33FBB /* Pods-ios-magicalrecord-demoTests.debug.xcconfig */,
+				F1CD41C982DCAD59C36AA668 /* Pods-ios-magicalrecord-demoTests.release.xcconfig */,
+				528632B30F9B1780FD3FFBC8 /* Pods-ios-magicalrecord-demoUITests.debug.xcconfig */,
+				064939C1E005CF1909A10FBC /* Pods-ios-magicalrecord-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5F178E1E770C7F00D8C3A7 /* ios-magicalrecord-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5F17BA1E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demo" */;
+			buildPhases = (
+				F04BA961C10EC1AF529B4049 /* [CP] Check Pods Manifest.lock */,
+				9F5F178B1E770C7F00D8C3A7 /* Sources */,
+				9F5F178C1E770C7F00D8C3A7 /* Frameworks */,
+				9F5F178D1E770C7F00D8C3A7 /* Resources */,
+				E9233E94C82E2C19E75B0238 /* [CP] Embed Pods Frameworks */,
+				164ED04A23E47AAE9836646D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-magicalrecord-demo";
+			productName = "ios-magicalrecord-demo";
+			productReference = 9F5F178F1E770C7F00D8C3A7 /* ios-magicalrecord-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F5F17A51E770C8000D8C3A7 /* ios-magicalrecord-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5F17BD1E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demoTests" */;
+			buildPhases = (
+				0ED4D0ECC520150F55391212 /* [CP] Check Pods Manifest.lock */,
+				9F5F17A21E770C8000D8C3A7 /* Sources */,
+				9F5F17A31E770C8000D8C3A7 /* Frameworks */,
+				9F5F17A41E770C8000D8C3A7 /* Resources */,
+				F17D8A3297AFFDB886EAE7AC /* [CP] Embed Pods Frameworks */,
+				9DDAF0E263869D5F98E525C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5F17A81E770C8000D8C3A7 /* PBXTargetDependency */,
+			);
+			name = "ios-magicalrecord-demoTests";
+			productName = "ios-magicalrecord-demoTests";
+			productReference = 9F5F17A61E770C8000D8C3A7 /* ios-magicalrecord-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F5F17B01E770C8000D8C3A7 /* ios-magicalrecord-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5F17C01E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demoUITests" */;
+			buildPhases = (
+				80F3E2300343F925208ED271 /* [CP] Check Pods Manifest.lock */,
+				9F5F17AD1E770C8000D8C3A7 /* Sources */,
+				9F5F17AE1E770C8000D8C3A7 /* Frameworks */,
+				9F5F17AF1E770C8000D8C3A7 /* Resources */,
+				C0936311F7287CBC091AB6FB /* [CP] Embed Pods Frameworks */,
+				6725CBA3A551FC71842513BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5F17B31E770C8000D8C3A7 /* PBXTargetDependency */,
+			);
+			name = "ios-magicalrecord-demoUITests";
+			productName = "ios-magicalrecord-demoUITests";
+			productReference = 9F5F17B11E770C8000D8C3A7 /* ios-magicalrecord-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5F17871E770C7F00D8C3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9F5F178E1E770C7F00D8C3A7 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					9F5F17A51E770C8000D8C3A7 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F5F178E1E770C7F00D8C3A7;
+					};
+					9F5F17B01E770C8000D8C3A7 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F5F178E1E770C7F00D8C3A7;
+					};
+				};
+			};
+			buildConfigurationList = 9F5F178A1E770C7F00D8C3A7 /* Build configuration list for PBXProject "ios-magicalrecord-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5F17861E770C7F00D8C3A7;
+			productRefGroup = 9F5F17901E770C7F00D8C3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5F178E1E770C7F00D8C3A7 /* ios-magicalrecord-demo */,
+				9F5F17A51E770C8000D8C3A7 /* ios-magicalrecord-demoTests */,
+				9F5F17B01E770C8000D8C3A7 /* ios-magicalrecord-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5F178D1E770C7F00D8C3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F17A01E770C8000D8C3A7 /* LaunchScreen.storyboard in Resources */,
+				9F5F179D1E770C8000D8C3A7 /* Assets.xcassets in Resources */,
+				9F5F17981E770C8000D8C3A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17A41E770C8000D8C3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17AF1E770C8000D8C3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ED4D0ECC520150F55391212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		164ED04A23E47AAE9836646D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demo/Pods-ios-magicalrecord-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6725CBA3A551FC71842513BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demoUITests/Pods-ios-magicalrecord-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F3E2300343F925208ED271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDAF0E263869D5F98E525C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demoTests/Pods-ios-magicalrecord-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0936311F7287CBC091AB6FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demoUITests/Pods-ios-magicalrecord-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9233E94C82E2C19E75B0238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demo/Pods-ios-magicalrecord-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04BA961C10EC1AF529B4049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F17D8A3297AFFDB886EAE7AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-magicalrecord-demoTests/Pods-ios-magicalrecord-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5F178B1E770C7F00D8C3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F17951E770C8000D8C3A7 /* ViewController.swift in Sources */,
+				9F5F17C61E77133E00D8C3A7 /* DemoEntity+CoreDataProperties.swift in Sources */,
+				9F5F179B1E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodeld in Sources */,
+				9F5F17931E770C8000D8C3A7 /* AppDelegate.swift in Sources */,
+				9F5F17C51E77133E00D8C3A7 /* DemoEntity+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17A21E770C8000D8C3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F17AB1E770C8000D8C3A7 /* ios_magicalrecord_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5F17AD1E770C8000D8C3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F17B61E770C8000D8C3A7 /* ios_magicalrecord_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5F17A81E770C8000D8C3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5F178E1E770C7F00D8C3A7 /* ios-magicalrecord-demo */;
+			targetProxy = 9F5F17A71E770C8000D8C3A7 /* PBXContainerItemProxy */;
+		};
+		9F5F17B31E770C8000D8C3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5F178E1E770C7F00D8C3A7 /* ios-magicalrecord-demo */;
+			targetProxy = 9F5F17B21E770C8000D8C3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F5F17961E770C8000D8C3A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5F17971E770C8000D8C3A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F5F179E1E770C8000D8C3A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5F179F1E770C8000D8C3A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F5F17B81E770C8000D8C3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F5F17B91E770C8000D8C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5F17BB1E770C8000D8C3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C569E04C47EF2B32B1EC2FA /* Pods-ios-magicalrecord-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ios-magicalrecord-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-magicalrecord-demo/ios-magicalrecord-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F5F17BC1E770C8000D8C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9D9A321E3D5341494A170D /* Pods-ios-magicalrecord-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ios-magicalrecord-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-magicalrecord-demo/ios-magicalrecord-demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F5F17BE1E770C8000D8C3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE39EB730D7B9D6013C33FBB /* Pods-ios-magicalrecord-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-magicalrecord-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-magicalrecord-demo.app/ios-magicalrecord-demo";
+			};
+			name = Debug;
+		};
+		9F5F17BF1E770C8000D8C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CD41C982DCAD59C36AA668 /* Pods-ios-magicalrecord-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-magicalrecord-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-magicalrecord-demo.app/ios-magicalrecord-demo";
+			};
+			name = Release;
+		};
+		9F5F17C11E770C8000D8C3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528632B30F9B1780FD3FFBC8 /* Pods-ios-magicalrecord-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-magicalrecord-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-magicalrecord-demo";
+			};
+			name = Debug;
+		};
+		9F5F17C21E770C8000D8C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064939C1E005CF1909A10FBC /* Pods-ios-magicalrecord-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-magicalrecord-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-magicalrecord-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-magicalrecord-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5F178A1E770C7F00D8C3A7 /* Build configuration list for PBXProject "ios-magicalrecord-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F17B81E770C8000D8C3A7 /* Debug */,
+				9F5F17B91E770C8000D8C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5F17BA1E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F17BB1E770C8000D8C3A7 /* Debug */,
+				9F5F17BC1E770C8000D8C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5F17BD1E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F17BE1E770C8000D8C3A7 /* Debug */,
+				9F5F17BF1E770C8000D8C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5F17C01E770C8000D8C3A7 /* Build configuration list for PBXNativeTarget "ios-magicalrecord-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F17C11E770C8000D8C3A7 /* Debug */,
+				9F5F17C21E770C8000D8C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F5F17991E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F5F179A1E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodel */,
+			);
+			currentVersion = 9F5F179A1E770C8000D8C3A7 /* ios_magicalrecord_demo.xcdatamodel */;
+			path = ios_magicalrecord_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F5F17871E770C7F00D8C3A7 /* Project object */;
+}
