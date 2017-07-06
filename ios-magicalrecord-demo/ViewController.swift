@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         
     }
     
-    // データの検索
+    // データの絞り込み検索
     private func selectLikeData(){
         
         let predicate = NSPredicate(format: "demoItem CONTAINS % @", "2")
